@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GestionVoyage</class>
+ <widget class="QWidget" name="GestionVoyage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gestion des Voyages</string>
+  </property>
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QLabel" name="label_titre">
+     <property name="styleSheet">
+      <string notr="true">font: 18pt "Times New Roman"; color: rgb(0, 85, 127);</string>
+     </property>
+     <property name="text">
+      <string>Planification et Réservation des Voyages</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="formGroup">
+     <property name="title">
+      <string>Détails du Voyage</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_client">
+        <property name="text">
+         <string>&amp;Client (ID/Nom) :</string>
+        </property>
+        <property name="buddy">
+         <cstring>combo_client</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="combo_client"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_depart">
+        <property name="text">
+         <string>Lieu de &amp;Départ :</string>
+        </property>
+        <property name="buddy">
+         <cstring>input_depart</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="input_depart"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_arrivee">
+        <property name="text">
+         <string>Lieu d'&amp;Arrivée :</string>
+        </property>
+        <property name="buddy">
+         <cstring>input_arrivee</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="input_arrivee"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_date_debut">
+        <property name="text">
+         <string>Date &amp;Début :</string>
+        </property>
+        <property name="buddy">
+         <cstring>date_debut</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QDateTimeEdit" name="date_debut"/>
+      </item>
+      
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_distance">
+        <property name="text">
+         <string>Distance &amp;Estimée (km) :</string>
+        </property>
+        <property name="buddy">
+         <cstring>input_distance_estimee</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="input_distance_estimee"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_chauffeur">
+        <property name="text">
+         <string>Chau&amp;ffeur Attribué :</string>
+        </property>
+        <property name="buddy">
+         <cstring>combo_chauffeur</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QComboBox" name="combo_chauffeur"/>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_vehicule">
+        <property name="text">
+         <string>Véhicu&amp;le Attribué :</string>
+        </property>
+        <property name="buddy">
+         <cstring>combo_vehicule</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QComboBox" name="combo_vehicule"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item>
+      <spacer name="horizontalSpacer_left">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_planifier">
+       <property name="text">
+        <string>Planifier le Voyage</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_terminer">
+       <property name="text">
+        <string>Terminer (Clôturer)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_facturer">
+       <property name="text">
+        <string>Générer Facture</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_right">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTreeWidget" name="tableVoyages">
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Client</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Départ - Arrivée</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Date Début</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Distance Estimée (km)</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Véhicule</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Statut</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,34 @@
+[
+    {
+        "immatriculation": "3189 WWT",
+        "marque": "Porche",
+        "modele": "Cayenne",
+        "montant_total_euros": 98.4,
+        "premier_plein": "2000-01-01",
+        "dernier_plein": "2000-01-01"
+    },
+    {
+        "immatriculation": "5312 TAV",
+        "marque": "Toyota",
+        "modele": "Touareg",
+        "montant_total_euros": 73.5,
+        "premier_plein": "2026-03-17",
+        "dernier_plein": "2026-03-17"
+    },
+    {
+        "immatriculation": "AB-123-CD",
+        "marque": "Peugeot",
+        "modele": "208",
+        "montant_total_euros": 95.5,
+        "premier_plein": "2026-03-16",
+        "dernier_plein": "2026-03-18"
+    },
+    {
+        "immatriculation": "EF-456-GH",
+        "marque": "Renault",
+        "modele": "Trafic",
+        "montant_total_euros": 85.0,
+        "premier_plein": "2026-03-16",
+        "dernier_plein": "2026-03-16"
+    }
+]

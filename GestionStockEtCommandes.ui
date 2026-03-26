@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GestionStockEtCommandes</class>
+ <widget class="QWidget" name="GestionStockEtCommandes">
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <widget class="QWidget" name="tab_stock">
+      <attribute name="title"><string>Pièces en Stock</string></attribute>
+      <layout class="QVBoxLayout">
+       <item>
+        <widget class="QGroupBox" name="groupBox_ajout_piece">
+         <property name="title"><string>Ajouter Pièce</string></property>
+         <layout class="QGridLayout">
+          <item row="0" column="0"><widget class="QLabel" name="label_nom_piece"><property name="text"><string>Nom :</string></property></widget></item>
+          <item row="0" column="1"><widget class="QLineEdit" name="input_nom_piece"/></item>
+          <item row="0" column="2"><widget class="QLabel" name="label_ref_piece"><property name="text"><string>Référence :</string></property></widget></item>
+          <item row="0" column="3"><widget class="QLineEdit" name="input_ref_piece"/></item>
+          <item row="1" column="0"><widget class="QLabel" name="label_prix"><property name="text"><string>Prix HT :</string></property></widget></item>
+          <item row="1" column="1"><widget class="QLineEdit" name="input_prix_unitaire"/></item>
+          <item row="1" column="2"><widget class="QLabel" name="label_quantite"><property name="text"><string>Stock Init. :</string></property></widget></item>
+          <item row="1" column="3"><widget class="QLineEdit" name="input_quantite_stock"/></item>
+          <item row="2" column="3"><widget class="QPushButton" name="btn_ajouter_piece"><property name="text"><string>Ajouter Pièce</string></property></widget></item>
+         </layout>
+        </widget>
+       </item>
+       <item><widget class="QTableWidget" name="table_pieces"><property name="columnCount"><number>5</number></property></widget></item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_commandes">
+      <attribute name="title"><string>Commandes</string></attribute>
+      <layout class="QVBoxLayout">
+       <item>
+        <widget class="QGroupBox" name="groupBox_nouvelle_commande">
+         <property name="title"><string>Nouvelle Commande</string></property>
+         <layout class="QFormLayout">
+          <item row="0" column="0"><widget class="QLabel"><property name="text"><string>Fournisseur :</string></property></widget></item>
+          <item row="0" column="1"><widget class="QComboBox" name="combo_fournisseur_commande"/></item>
+          <item row="1" column="0"><widget class="QLabel"><property name="text"><string>Montant Estimé :</string></property></widget></item>
+          <item row="1" column="1"><widget class="QLineEdit" name="input_montant_commande"/></item>
+          <item row="2" column="1"><widget class="QPushButton" name="btn_passer_commande"><property name="text"><string>Passer Commande</string></property></widget></item>
+         </layout>
+        </widget>
+       </item>
+       <item><widget class="QTableWidget" name="table_commandes"><property name="columnCount"><number>5</number></property></widget></item>
+       <item><widget class="QPushButton" name="btn_recevoir_commande"><property name="text"><string>Recevoir Commande et MàJ Stock</string></property></widget></item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+</ui>

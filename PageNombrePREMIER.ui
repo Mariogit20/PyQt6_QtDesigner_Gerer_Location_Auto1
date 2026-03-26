@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormNombrePREMIER</class>
+ <widget class="QWidget" name="FormNombrePREMIER">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 170, 255);</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>461</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>58</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: italic 14pt &quot;Monotype Corsiva&quot;;
+font: 18pt &quot;MS Shell Dlg 2&quot;;
+font: 14pt &quot;Ravie&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Nombre Premier</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>58</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLineEdit" name="lineEditCompteur">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>57</y>
+     <width>177</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCompteur">
+   <property name="geometry">
+    <rect>
+     <x>126</x>
+     <y>57</y>
+     <width>48</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 13pt &quot;Monotype Corsiva&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Nombre</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCompteur">
+   <property name="geometry">
+    <rect>
+     <x>126</x>
+     <y>88</y>
+     <width>231</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: italic 18pt &quot;Monotype Corsiva&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Vérifier si NOMBRE</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

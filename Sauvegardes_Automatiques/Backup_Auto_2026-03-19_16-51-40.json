@@ -1,0 +1,1391 @@
+{
+    "CHAUFFEUR": [
+        {
+            "id_chauffeur": 1,
+            "nom": "RASOARIMANANA",
+            "prenom": "Daniel d'Assisé",
+            "telephone": "0347512397",
+            "date_permis": null,
+            "type_permis": "C ET E"
+        },
+        {
+            "id_chauffeur": 2,
+            "nom": "BERNARD",
+            "prenom": "Luc",
+            "telephone": "0611223344",
+            "date_permis": null,
+            "type_permis": "B, B1"
+        },
+        {
+            "id_chauffeur": 3,
+            "nom": "DIALLO",
+            "prenom": "Aminata",
+            "telephone": "0755667788",
+            "date_permis": null,
+            "type_permis": "B, C (POIDS LOURD)"
+        }
+    ],
+    "CLIENT": [
+        {
+            "id_client": 1,
+            "nom": "Dupont",
+            "prenom": "Jean",
+            "email": "jean.dupont@email.com",
+            "telephone": "0601020304",
+            "adresse": "Lot V 2 Avaradoha"
+        },
+        {
+            "id_client": 2,
+            "nom": "Martin",
+            "prenom": "Sophie",
+            "email": "smartin@entreprise.com",
+            "telephone": "0708091011",
+            "adresse": "Lot 54 bis Sud Antsiranana"
+        },
+        {
+            "id_client": 3,
+            "nom": "RAZANAKOTO",
+            "prenom": "Tantely d'Assisé",
+            "email": "tantely@yahoo.fr",
+            "telephone": "+00347589317",
+            "adresse": "Lot 7 Y Ivandry Analalava"
+        },
+        {
+            "id_client": 4,
+            "nom": "Test Nom Client",
+            "prenom": "Test Prénom Client",
+            "email": "halleymariomen@gmail.com",
+            "telephone": "+279345721",
+            "adresse": "Lot H 4 Rue Ravelo"
+        }
+    ],
+    "TYPE_VEHICULE": [
+        {
+            "id_type": 1,
+            "nom_type": "Voiture",
+            "intervalle_vidange_km": null,
+            "intervalle_revision_mois": null
+        },
+        {
+            "id_type": 2,
+            "nom_type": "SUV",
+            "intervalle_vidange_km": null,
+            "intervalle_revision_mois": null
+        },
+        {
+            "id_type": 3,
+            "nom_type": "Camionnette",
+            "intervalle_vidange_km": null,
+            "intervalle_revision_mois": null
+        }
+    ],
+    "FOURNISSEUR": [],
+    "UTILISATEUR": [
+        {
+            "id_user": 1,
+            "login": "admin",
+            "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+            "role": "Administrateur"
+        },
+        {
+            "id_user": 3,
+            "login": "test",
+            "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "role": "Employe"
+        },
+        {
+            "id_user": 5,
+            "login": "test2",
+            "password": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+            "role": "Administrateur"
+        }
+    ],
+    "VEHICULE": [
+        {
+            "immatriculation": "AB-123-CD",
+            "marque": "Peugeot",
+            "modele": "208",
+            "annee": null,
+            "kilometrage_actuel": 45000,
+            "capacite_places": null,
+            "statut_disponibilite": "En location",
+            "date_echeance_assurance": "2026-03-30",
+            "id_type": 1
+        },
+        {
+            "immatriculation": "EF-456-GH",
+            "marque": "Renault",
+            "modele": "Trafic",
+            "annee": null,
+            "kilometrage_actuel": 120000,
+            "capacite_places": null,
+            "statut_disponibilite": "En réparation",
+            "date_echeance_assurance": "2026-12-31",
+            "id_type": 1
+        },
+        {
+            "immatriculation": "IJ-789-KL",
+            "marque": "Toyota",
+            "modele": "Yaris",
+            "annee": null,
+            "kilometrage_actuel": 15000,
+            "capacite_places": null,
+            "statut_disponibilite": "En location",
+            "date_echeance_assurance": "2026-08-15",
+            "id_type": 1
+        },
+        {
+            "immatriculation": "5312 TAV",
+            "marque": "Toyota",
+            "modele": "Touareg",
+            "annee": null,
+            "kilometrage_actuel": 27400,
+            "capacite_places": null,
+            "statut_disponibilite": "En course",
+            "date_echeance_assurance": "2026-03-17",
+            "id_type": 1
+        },
+        {
+            "immatriculation": "3189 WWT",
+            "marque": "Porche",
+            "modele": "Cayenne",
+            "annee": null,
+            "kilometrage_actuel": 84000,
+            "capacite_places": null,
+            "statut_disponibilite": "En location",
+            "date_echeance_assurance": "2026-03-17",
+            "id_type": 1
+        }
+    ],
+    "LOCATION": [
+        {
+            "id_location": 1,
+            "date_sortie": "2026-03-16 09:05:48",
+            "date_retour_prevue": null,
+            "date_retour_reelle": "2026-04-22 09:22:14",
+            "kilometrage_depart": null,
+            "kilometrage_retour": null,
+            "statut_location": "Terminée",
+            "id_client": 1,
+            "immatriculation": "AB-123-CD",
+            "id_chauffeur": null
+        },
+        {
+            "id_location": 2,
+            "date_sortie": "2026-03-16 09:06:04",
+            "date_retour_prevue": null,
+            "date_retour_reelle": "2026-03-16 09:08:53",
+            "kilometrage_depart": null,
+            "kilometrage_retour": null,
+            "statut_location": "Terminée",
+            "id_client": 1,
+            "immatriculation": "EF-456-GH",
+            "id_chauffeur": null
+        },
+        {
+            "id_location": 3,
+            "date_sortie": "2026-03-16 09:06:10",
+            "date_retour_prevue": null,
+            "date_retour_reelle": "2026-03-16 09:20:19",
+            "kilometrage_depart": null,
+            "kilometrage_retour": null,
+            "statut_location": "Terminée",
+            "id_client": 1,
+            "immatriculation": "IJ-789-KL",
+            "id_chauffeur": null
+        },
+        {
+            "id_location": 4,
+            "date_sortie": "2026-03-16 09:20:27",
+            "date_retour_prevue": null,
+            "date_retour_reelle": "2026-04-22 09:22:40",
+            "kilometrage_depart": null,
+            "kilometrage_retour": null,
+            "statut_location": "Terminée",
+            "id_client": 1,
+            "immatriculation": "IJ-789-KL",
+            "id_chauffeur": 2
+        },
+        {
+            "id_location": 5,
+            "date_sortie": "2026-03-16 09:26:36",
+            "date_retour_prevue": null,
+            "date_retour_reelle": "2026-03-16 19:21:45",
+            "kilometrage_depart": null,
+            "kilometrage_retour": null,
+            "statut_location": "Terminée",
+            "id_client": 1,
+            "immatriculation": "AB-123-CD",
+            "id_chauffeur": 1
+        },
+        {
+            "id_location": 6,
+            "date_sortie": "2026-03-17 18:08:48",
+            "date_retour_prevue": "2026-03-19 18:08:48",
+            "date_retour_reelle": "2026-03-16 19:23:13",
+            "kilometrage_depart": null,
+            "kilometrage_retour": null,
+            "statut_location": "Terminée",
+            "id_client": 1,
+            "immatriculation": "IJ-789-KL",
+            "id_chauffeur": null
+        },
+        {
+            "id_location": 7,
+            "date_sortie": "2026-03-16 19:22:01",
+            "date_retour_prevue": null,
+            "date_retour_reelle": "2026-03-16 19:23:26",
+            "kilometrage_depart": null,
+            "kilometrage_retour": null,
+            "statut_location": "Terminée",
+            "id_client": 1,
+            "immatriculation": "AB-123-CD",
+            "id_chauffeur": 2
+        },
+        {
+            "id_location": 8,
+            "date_sortie": "2026-03-17 09:24:41",
+            "date_retour_prevue": null,
+            "date_retour_reelle": null,
+            "kilometrage_depart": null,
+            "kilometrage_retour": null,
+            "statut_location": "En location",
+            "id_client": 1,
+            "immatriculation": "IJ-789-KL",
+            "id_chauffeur": 2
+        },
+        {
+            "id_location": 9,
+            "date_sortie": "2026-03-18 09:25:09",
+            "date_retour_prevue": "2026-03-20 09:25:09",
+            "date_retour_reelle": null,
+            "kilometrage_depart": null,
+            "kilometrage_retour": null,
+            "statut_location": "Planifiée",
+            "id_client": 1,
+            "immatriculation": "AB-123-CD",
+            "id_chauffeur": null
+        },
+        {
+            "id_location": 10,
+            "date_sortie": "2026-03-17 11:01:28",
+            "date_retour_prevue": null,
+            "date_retour_reelle": "2026-03-19 16:48:10",
+            "kilometrage_depart": null,
+            "kilometrage_retour": null,
+            "statut_location": "Terminée",
+            "id_client": 2,
+            "immatriculation": "5312 TAV",
+            "id_chauffeur": 3
+        },
+        {
+            "id_location": 11,
+            "date_sortie": "2026-03-17 11:09:04",
+            "date_retour_prevue": null,
+            "date_retour_reelle": null,
+            "kilometrage_depart": null,
+            "kilometrage_retour": null,
+            "statut_location": "En location",
+            "id_client": 3,
+            "immatriculation": "3189 WWT",
+            "id_chauffeur": 1
+        },
+        {
+            "id_location": 12,
+            "date_sortie": "2026-03-20 10:30:19",
+            "date_retour_prevue": "2026-03-21 13:42:19",
+            "date_retour_reelle": null,
+            "kilometrage_depart": null,
+            "kilometrage_retour": null,
+            "statut_location": "Planifiée",
+            "id_client": 4,
+            "immatriculation": "AB-123-CD",
+            "id_chauffeur": null
+        },
+        {
+            "id_location": 13,
+            "date_sortie": "2026-03-19 15:19:49",
+            "date_retour_prevue": null,
+            "date_retour_reelle": null,
+            "kilometrage_depart": null,
+            "kilometrage_retour": null,
+            "statut_location": "En location",
+            "id_client": 1,
+            "immatriculation": "AB-123-CD",
+            "id_chauffeur": null
+        }
+    ],
+    "FACTURE_CLIENT": [],
+    "CONSOMMATION_CARBURANT": [
+        {
+            "id_plein": 1,
+            "date_plein": "2026-03-16",
+            "montant": 55.5,
+            "litres": 32.4,
+            "immatriculation": "AB-123-CD"
+        },
+        {
+            "id_plein": 2,
+            "date_plein": "2026-03-16",
+            "montant": 85.0,
+            "litres": 50.0,
+            "immatriculation": "EF-456-GH"
+        },
+        {
+            "id_plein": 3,
+            "date_plein": "2026-03-18",
+            "montant": 40.0,
+            "litres": 22.5,
+            "immatriculation": "AB-123-CD"
+        },
+        {
+            "id_plein": 4,
+            "date_plein": "2026-03-17",
+            "montant": 73.5,
+            "litres": 14.0,
+            "immatriculation": "5312 TAV"
+        },
+        {
+            "id_plein": 5,
+            "date_plein": "2000-01-01",
+            "montant": 98.4,
+            "litres": 9450.0,
+            "immatriculation": "3189 WWT"
+        }
+    ],
+    "PIECE": [
+        {
+            "id_piece": 1,
+            "nom_piece": "Filtre à huile",
+            "reference_fournisseur": "FH-PEU-01",
+            "prix_unitaire": 15.5,
+            "quantite_stock": 10
+        },
+        {
+            "id_piece": 2,
+            "nom_piece": "Plaquettes de frein",
+            "reference_fournisseur": "PF-REN-05",
+            "prix_unitaire": 45.99,
+            "quantite_stock": 4
+        },
+        {
+            "id_piece": 3,
+            "nom_piece": "Pneu Michelin",
+            "reference_fournisseur": "PN-MICH-15",
+            "prix_unitaire": 85.0,
+            "quantite_stock": 8
+        }
+    ],
+    "REPARATION": [
+        {
+            "id_reparation": 1,
+            "date_debut_reparation": "2026-03-16 12:00:00",
+            "date_fin_reparation": "2026-03-25 10:17:54",
+            "cout_main_d_oeuvre": null,
+            "nature_panne_tache": "Panne Vidange annuelle",
+            "description_travaux": null,
+            "type_maintenance": "Préventive",
+            "statut_reparation": "En cours",
+            "immatriculation": "EF-456-GH",
+            "id_fournisseur": null
+        }
+    ],
+    "COMMANDE_REPARATION": [],
+    "UTILISER": [],
+    "HISTORIQUE": [
+        {
+            "id_historique": 1,
+            "date_action": "2026-03-14 16:25:45",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Connexion réussie en tant que Administrateur"
+        },
+        {
+            "id_historique": 2,
+            "date_action": "2026-03-14 16:27:49",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Connexion réussie en tant que Administrateur"
+        },
+        {
+            "id_historique": 3,
+            "date_action": "2026-03-14 16:28:50",
+            "utilisateur": "Utilisateur",
+            "action": "Modif. Chauffeur",
+            "details": "Mise à jour du chauffeur ID 1"
+        },
+        {
+            "id_historique": 4,
+            "date_action": "2026-03-14 17:03:34",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Connexion réussie en tant que Administrateur"
+        },
+        {
+            "id_historique": 5,
+            "date_action": "2026-03-14 17:23:53",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 6,
+            "date_action": "2026-03-14 17:59:24",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 7,
+            "date_action": "2026-03-14 18:01:59",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 8,
+            "date_action": "2026-03-14 18:04:58",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 9,
+            "date_action": "2026-03-15 09:40:18",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 10,
+            "date_action": "2026-03-15 09:55:40",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 11,
+            "date_action": "2026-03-15 11:07:49",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 12,
+            "date_action": "2026-03-15 11:21:32",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 13,
+            "date_action": "2026-03-15 11:52:04",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 14,
+            "date_action": "2026-03-15 11:55:00",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 15,
+            "date_action": "2026-03-15 12:21:47",
+            "utilisateur": "admin",
+            "action": "Connexion Systeme",
+            "details": "Session ouverte avec le role : Administrateur"
+        },
+        {
+            "id_historique": 16,
+            "date_action": "2026-03-15 12:23:31",
+            "utilisateur": "admin",
+            "action": "Connexion Systeme",
+            "details": "Session ouverte avec le role : Administrateur"
+        },
+        {
+            "id_historique": 17,
+            "date_action": "2026-03-15 12:30:01",
+            "utilisateur": "admin",
+            "action": "Connexion Systeme",
+            "details": "Session ouverte avec le role : Administrateur"
+        },
+        {
+            "id_historique": 18,
+            "date_action": "2026-03-15 12:32:49",
+            "utilisateur": "admin",
+            "action": "Connexion Systeme",
+            "details": "Session ouverte avec le role : Administrateur"
+        },
+        {
+            "id_historique": 19,
+            "date_action": "2026-03-15 12:43:20",
+            "utilisateur": "admin",
+            "action": "Connexion Systeme",
+            "details": "Session ouverte avec le role : Administrateur"
+        },
+        {
+            "id_historique": 20,
+            "date_action": "2026-03-15 12:50:42",
+            "utilisateur": "admin",
+            "action": "Connexion Systeme",
+            "details": "Session ouverte avec le role : Administrateur"
+        },
+        {
+            "id_historique": 21,
+            "date_action": "2026-03-15 12:56:17",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 22,
+            "date_action": "2026-03-15 13:02:59",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 23,
+            "date_action": "2026-03-15 13:14:16",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 24,
+            "date_action": "2026-03-15 14:27:24",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 25,
+            "date_action": "2026-03-15 14:38:27",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 26,
+            "date_action": "2026-03-15 14:53:42",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 27,
+            "date_action": "2026-03-15 14:58:38",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 28,
+            "date_action": "2026-03-15 15:00:06",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 29,
+            "date_action": "2026-03-15 15:11:07",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 30,
+            "date_action": "2026-03-15 15:11:51",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 31,
+            "date_action": "2026-03-15 15:14:09",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 32,
+            "date_action": "2026-03-15 15:15:37",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 33,
+            "date_action": "2026-03-15 15:17:56",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 34,
+            "date_action": "2026-03-15 15:19:36",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 35,
+            "date_action": "2026-03-15 17:15:35",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 36,
+            "date_action": "2026-03-15 18:10:46",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Véhicule",
+            "details": "Véhicule Peugeot 208 ajouté (Immat: AB-123-CD)"
+        },
+        {
+            "id_historique": 37,
+            "date_action": "2026-03-15 18:12:44",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Véhicule",
+            "details": "Véhicule Renault Trafic ajouté (Immat: EF-456-GH)"
+        },
+        {
+            "id_historique": 38,
+            "date_action": "2026-03-15 18:14:40",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Véhicule",
+            "details": "Véhicule Toyota Yaris ajouté (Immat: IJ-789-KL)"
+        },
+        {
+            "id_historique": 39,
+            "date_action": "2026-03-15 18:17:02",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Client",
+            "details": "Client ajouté: Dupont Jean"
+        },
+        {
+            "id_historique": 40,
+            "date_action": "2026-03-15 18:41:04",
+            "utilisateur": "Utilisateur",
+            "action": "Modif. Client",
+            "details": "Client ID 1 modifié."
+        },
+        {
+            "id_historique": 41,
+            "date_action": "2026-03-15 18:41:17",
+            "utilisateur": "Utilisateur",
+            "action": "Modif. Client",
+            "details": "Client ID 1 modifié."
+        },
+        {
+            "id_historique": 42,
+            "date_action": "2026-03-15 19:30:37",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 43,
+            "date_action": "2026-03-15 19:31:50",
+            "utilisateur": "Utilisateur",
+            "action": "Modif. Client",
+            "details": "Client ID 1 modifié."
+        },
+        {
+            "id_historique": 44,
+            "date_action": "2026-03-15 19:32:06",
+            "utilisateur": "Utilisateur",
+            "action": "Modif. Client",
+            "details": "Client ID 1 modifié."
+        },
+        {
+            "id_historique": 45,
+            "date_action": "2026-03-15 19:34:40",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Client",
+            "details": "Client ajouté: Martin Sophie"
+        },
+        {
+            "id_historique": 46,
+            "date_action": "2026-03-15 19:36:50",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Client",
+            "details": "Client ajouté: RAZANAKOTO Tantely d'Assisé"
+        },
+        {
+            "id_historique": 47,
+            "date_action": "2026-03-15 19:37:14",
+            "utilisateur": "Utilisateur",
+            "action": "Modif. Client",
+            "details": "Client ID 3 modifié."
+        },
+        {
+            "id_historique": 48,
+            "date_action": "2026-03-16 08:37:53",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 49,
+            "date_action": "2026-03-16 08:43:17",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Chauffeur",
+            "details": "Chauffeur BERNARD Luc ajouté"
+        },
+        {
+            "id_historique": 50,
+            "date_action": "2026-03-16 08:44:19",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Chauffeur",
+            "details": "Chauffeur DIALLO Aminata ajouté"
+        },
+        {
+            "id_historique": 51,
+            "date_action": "2026-03-16 08:46:02",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Pièce",
+            "details": "Pièce ajoutée: Filtre à huile (Réf: FH-PEU-01)"
+        },
+        {
+            "id_historique": 52,
+            "date_action": "2026-03-16 08:46:58",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Pièce",
+            "details": "Pièce ajoutée: Plaquettes de frein (Réf: PF-REN-05)"
+        },
+        {
+            "id_historique": 53,
+            "date_action": "2026-03-16 08:47:50",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Pièce",
+            "details": "Pièce ajoutée: Pneu Michelin (Réf: PN-MICH-15)"
+        },
+        {
+            "id_historique": 54,
+            "date_action": "2026-03-16 09:05:48",
+            "utilisateur": "Utilisateur",
+            "action": "Sortie Location",
+            "details": "Véhicule AB-123-CD mis en location (Client ID: 1)"
+        },
+        {
+            "id_historique": 55,
+            "date_action": "2026-03-16 09:06:04",
+            "utilisateur": "Utilisateur",
+            "action": "Sortie Location",
+            "details": "Véhicule EF-456-GH mis en location (Client ID: 1)"
+        },
+        {
+            "id_historique": 56,
+            "date_action": "2026-03-16 09:06:10",
+            "utilisateur": "Utilisateur",
+            "action": "Sortie Location",
+            "details": "Véhicule IJ-789-KL mis en location (Client ID: 1)"
+        },
+        {
+            "id_historique": 57,
+            "date_action": "2026-03-16 09:08:53",
+            "utilisateur": "Utilisateur",
+            "action": "Retour Location",
+            "details": "Location ID 2 terminée. Véhicule EF-456-GH dispo."
+        },
+        {
+            "id_historique": 58,
+            "date_action": "2026-03-16 09:11:04",
+            "utilisateur": "Utilisateur",
+            "action": "Ouverture Réparation",
+            "details": "Véhicule EF-456-GH en réparation pour : Panne Vidange annuelle"
+        },
+        {
+            "id_historique": 59,
+            "date_action": "2026-03-16 09:14:50",
+            "utilisateur": "Administrateur",
+            "action": "Saisie Carburant",
+            "details": "Plein de 32.4L (55.5€) pour le véhicule AB-123-CD"
+        },
+        {
+            "id_historique": 60,
+            "date_action": "2026-03-16 09:15:39",
+            "utilisateur": "Administrateur",
+            "action": "Saisie Carburant",
+            "details": "Plein de 50.0L (85.0€) pour le véhicule EF-456-GH"
+        },
+        {
+            "id_historique": 61,
+            "date_action": "2026-03-16 09:17:11",
+            "utilisateur": "Administrateur",
+            "action": "Saisie Carburant",
+            "details": "Plein de 22.5L (40.0€) pour le véhicule AB-123-CD"
+        },
+        {
+            "id_historique": 62,
+            "date_action": "2026-03-16 09:20:19",
+            "utilisateur": "Utilisateur",
+            "action": "Retour Location",
+            "details": "Location ID 3 terminée. Véhicule IJ-789-KL dispo."
+        },
+        {
+            "id_historique": 63,
+            "date_action": "2026-03-16 09:20:27",
+            "utilisateur": "Utilisateur",
+            "action": "Sortie Location",
+            "details": "Véhicule IJ-789-KL mis en location (Client ID: 1)"
+        },
+        {
+            "id_historique": 64,
+            "date_action": "2026-04-22 09:21:59",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 65,
+            "date_action": "2026-04-22 09:22:15",
+            "utilisateur": "Utilisateur",
+            "action": "Retour Location",
+            "details": "Location ID 1 terminée. Véhicule AB-123-CD dispo."
+        },
+        {
+            "id_historique": 66,
+            "date_action": "2026-04-22 09:22:40",
+            "utilisateur": "Utilisateur",
+            "action": "Retour Location",
+            "details": "Location ID 4 terminée. Véhicule IJ-789-KL dispo."
+        },
+        {
+            "id_historique": 67,
+            "date_action": "2026-03-16 09:24:20",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 68,
+            "date_action": "2026-03-16 09:26:37",
+            "utilisateur": "Utilisateur",
+            "action": "Sortie Location",
+            "details": "Véhicule AB-123-CD mis en location (Client ID: 1)"
+        },
+        {
+            "id_historique": 69,
+            "date_action": "2026-03-16 13:59:50",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 70,
+            "date_action": "2026-03-16 14:21:17",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 71,
+            "date_action": "2026-02-13 14:23:13",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 72,
+            "date_action": "2026-03-16 17:49:56",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 73,
+            "date_action": "2026-03-16 18:07:44",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 74,
+            "date_action": "2026-03-16 18:23:53",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 75,
+            "date_action": "2026-03-16 18:35:24",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 76,
+            "date_action": "2026-03-16 19:21:24",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 77,
+            "date_action": "2026-03-16 19:35:31",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 78,
+            "date_action": "2026-03-16 19:41:47",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 79,
+            "date_action": "2026-03-16 19:54:17",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 80,
+            "date_action": "2026-03-17 09:23:19",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 81,
+            "date_action": "2026-03-17 09:48:35",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 82,
+            "date_action": "2026-03-17 09:50:01",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 83,
+            "date_action": "2026-03-17 10:11:41",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 84,
+            "date_action": "2026-03-17 10:17:46",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 85,
+            "date_action": "2026-03-17 10:37:03",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 86,
+            "date_action": "2026-03-17 10:49:15",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 87,
+            "date_action": "2026-03-17 10:58:39",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 88,
+            "date_action": "2026-03-17 11:01:01",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Véhicule",
+            "details": "Véhicule Toyota Touareg ajouté (Immat: 5312 TAV)"
+        },
+        {
+            "id_historique": 89,
+            "date_action": "2026-03-17 11:03:53",
+            "utilisateur": "Administrateur",
+            "action": "Saisie Carburant",
+            "details": "Plein de 14.0L (73.5€) pour le véhicule 5312 TAV"
+        },
+        {
+            "id_historique": 90,
+            "date_action": "2026-03-17 11:08:37",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Véhicule",
+            "details": "Véhicule Porche Cayenne ajouté (Immat: 3189 WWT)"
+        },
+        {
+            "id_historique": 91,
+            "date_action": "2026-03-17 11:10:31",
+            "utilisateur": "Administrateur",
+            "action": "Saisie Carburant",
+            "details": "Plein de 94200.0L (9270.0€) pour le véhicule 3189 WWT"
+        },
+        {
+            "id_historique": 92,
+            "date_action": "2026-03-17 11:28:20",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 93,
+            "date_action": "2026-03-17 11:38:10",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 94,
+            "date_action": "2026-03-17 11:57:07",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 95,
+            "date_action": "2026-03-17 12:07:51",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 96,
+            "date_action": "2026-03-17 12:21:28",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 97,
+            "date_action": "2026-03-17 15:38:35",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 98,
+            "date_action": "2026-03-17 16:44:58",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 99,
+            "date_action": "2026-03-17 16:58:57",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 100,
+            "date_action": "2026-03-17 17:09:32",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 101,
+            "date_action": "2026-03-17 17:25:19",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 102,
+            "date_action": "2026-03-17 17:54:46",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 103,
+            "date_action": "2026-03-17 18:08:28",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 104,
+            "date_action": "2026-03-17 18:50:51",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 105,
+            "date_action": "2026-03-17 18:51:37",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-17_18-51-37.json"
+        },
+        {
+            "id_historique": 106,
+            "date_action": "2026-03-17 19:27:41",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 107,
+            "date_action": "2026-03-17 19:29:07",
+            "utilisateur": "Utilisateur",
+            "action": "Génération PDF",
+            "details": "Contrat imprimé pour la location N°8"
+        },
+        {
+            "id_historique": 108,
+            "date_action": "2026-03-17 19:40:36",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-17_19-40-36.json"
+        },
+        {
+            "id_historique": 109,
+            "date_action": "2026-03-17 19:44:55",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 110,
+            "date_action": "2026-03-17 19:45:38",
+            "utilisateur": "Utilisateur",
+            "action": "Génération PDF",
+            "details": "Contrat imprimé pour la location N°8"
+        },
+        {
+            "id_historique": 111,
+            "date_action": "2026-03-17 19:46:44",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-17_19-46-44.json"
+        },
+        {
+            "id_historique": 112,
+            "date_action": "2026-03-17 20:03:31",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 113,
+            "date_action": "2026-03-17 20:03:57",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-17_20-03-57.json"
+        },
+        {
+            "id_historique": 114,
+            "date_action": "2026-03-17 20:11:24",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 115,
+            "date_action": "2026-03-17 20:17:14",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-17_20-17-14.json"
+        },
+        {
+            "id_historique": 116,
+            "date_action": "2026-03-17 20:21:11",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 117,
+            "date_action": "2026-03-17 20:21:21",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-17_20-21-21.json"
+        },
+        {
+            "id_historique": 118,
+            "date_action": "2026-03-17 21:39:38",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 119,
+            "date_action": "2026-03-17 21:40:26",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-17_21-40-26.json"
+        },
+        {
+            "id_historique": 120,
+            "date_action": "2026-03-18 13:37:10",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 121,
+            "date_action": "2026-03-18 13:41:05",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Client",
+            "details": "Client ajouté: Test Nom Client Test Prénom Client"
+        },
+        {
+            "id_historique": 122,
+            "date_action": "2026-03-18 13:43:37",
+            "utilisateur": "Utilisateur",
+            "action": "Réservation Future",
+            "details": "Véhicule AB-123-CD réservé du 2026-03-20 10:30:19 au 2026-03-21 13:42:19"
+        },
+        {
+            "id_historique": 123,
+            "date_action": "2026-03-18 14:08:17",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-18_14-08-17.json"
+        },
+        {
+            "id_historique": 124,
+            "date_action": "2026-03-19 08:23:01",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 125,
+            "date_action": "2026-03-19 08:23:18",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-19_08-23-18.json"
+        },
+        {
+            "id_historique": 126,
+            "date_action": "2026-03-19 13:27:33",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 127,
+            "date_action": "2026-03-19 13:30:05",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-19_13-30-05.json"
+        },
+        {
+            "id_historique": 128,
+            "date_action": "2026-03-19 15:18:58",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 129,
+            "date_action": "2026-03-19 15:20:48",
+            "utilisateur": "Utilisateur",
+            "action": "Sortie Véhicule",
+            "details": "Location démarrée pour le véhicule AB-123-CD"
+        },
+        {
+            "id_historique": 130,
+            "date_action": "2026-03-19 15:55:49",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-19_15-55-48.json"
+        },
+        {
+            "id_historique": 131,
+            "date_action": "2026-03-19 15:58:30",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 132,
+            "date_action": "2026-03-19 16:05:28",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 133,
+            "date_action": "2026-03-19 16:08:13",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 134,
+            "date_action": "2026-03-19 16:15:30",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 135,
+            "date_action": "2026-03-19 16:20:18",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 136,
+            "date_action": "2026-03-19 16:20:43",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 137,
+            "date_action": "2026-03-19 16:30:57",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 138,
+            "date_action": "2026-03-19 16:36:36",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 139,
+            "date_action": "2026-03-19 16:48:10",
+            "utilisateur": "Utilisateur",
+            "action": "Retour Véhicule",
+            "details": "Véhicule 5312 TAV restitué (Location N°10)"
+        },
+        {
+            "id_historique": 140,
+            "date_action": "2026-03-19 16:48:55",
+            "utilisateur": "Utilisateur",
+            "action": "Planification Voyage",
+            "details": "De Paris vers Marseille (Client ID: 3, Véhicule: 5312 TAV)"
+        }
+    ],
+    "VOYAGE": [
+        {
+            "id_voyage": 1,
+            "id_client": 3,
+            "immatriculation": "5312 TAV",
+            "id_chauffeur": 1,
+            "lieu_depart": "Paris",
+            "lieu_arrivee": "Marseille",
+            "date_debut_planifiee": "2000-01-01 00:00:00",
+            "date_fin_reelle": null,
+            "distance_estimee": 35000.0,
+            "statut_voyage": "Planifié"
+        }
+    ]
+}

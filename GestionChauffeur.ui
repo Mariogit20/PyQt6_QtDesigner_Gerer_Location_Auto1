@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GestionChauffeur</class>
+ <widget class="QWidget" name="GestionChauffeur">
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QGroupBox" name="formGroup">
+     <property name="title"><string>Fiche Chauffeur</string></property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0"><widget class="QLabel" name="label_nom"><property name="text"><string>Nom :</string></property></widget></item>
+      <item row="0" column="1"><widget class="QLineEdit" name="input_nom"/></item>
+      <item row="1" column="0"><widget class="QLabel" name="label_prenom"><property name="text"><string>Prénom :</string></property></widget></item>
+      <item row="1" column="1"><widget class="QLineEdit" name="input_prenom"/></item>
+      <item row="2" column="0"><widget class="QLabel" name="label_tel"><property name="text"><string>Téléphone :</string></property></widget></item>
+      <item row="2" column="1"><widget class="QLineEdit" name="input_tel"/></item>
+      <item row="3" column="0"><widget class="QLabel" name="label_permis"><property name="text"><string>Permis :</string></property></widget></item>
+      <item row="3" column="1"><widget class="QLineEdit" name="input_permis"/></item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item><widget class="QPushButton" name="btn_nouveau"><property name="text"><string>🔄 Nouvel Enregistrement</string></property><property name="styleSheet"><string>background-color: #f39c12; color: white; font-weight: bold;</string></property></widget></item>
+     <item><widget class="QPushButton" name="btn_ajouter"><property name="text"><string>Ajouter</string></property></widget></item>
+     <item><widget class="QPushButton" name="btn_modifier"><property name="text"><string>Modifier</string></property></widget></item>
+     <item><widget class="QPushButton" name="btn_supprimer"><property name="text"><string>Supprimer</string></property></widget></item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTreeWidget" name="tableChauffeurs">
+     <column><property name="text"><string>ID</string></property></column>
+     <column><property name="text"><string>Nom</string></property></column>
+     <column><property name="text"><string>Prénom</string></property></column>
+     <column><property name="text"><string>Téléphone</string></property></column>
+     <column><property name="text"><string>Permis</string></property></column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+</ui>

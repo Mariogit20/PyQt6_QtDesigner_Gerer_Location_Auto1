@@ -1,0 +1,75 @@
+# Pour charger un fichier .ui de Qt Designer dans un fichier Python .py, vous pouvez utiliser l'une des deux méthodes principales :
+
+# Méthode 1: Conversion du fichier .ui en .py (recommandée)
+
+# C'est la méthode la plus courante et la plus simple. Elle consiste à convertir le fichier .ui en un fichier Python .py à l'aide de l'outil pyuic5 (pour PyQt5) ou pyuic6 (pour PyQt6).
+
+#     Ouvrez une invite de commande ou un terminal.
+
+#     Naviguez jusqu'au répertoire contenant votre fichier .ui.
+
+#     Exécutez la commande suivante :
+
+#         Pour PyQt6 : pyuic6 -o votre_fichier_ui.py votre_fichier.ui
+
+#         Pour PyQt5 : pyuic5 -o votre_fichier_ui.py votre_fichier.ui
+
+#     Cette commande crée un fichier Python votre_fichier_ui.py contenant le code de l'interface utilisateur. Ce fichier ne doit pas être modifié manuellement, car il sera écrasé si vous re-générez l'interface.
+
+#     Importez et utilisez l'interface dans votre fichier principal .py (par exemple, app.py) :
+
+
+
+# import sys
+# from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel
+# from votre_fichier_ui import Ui_MainWindow # Le nom de la classe est souvent Ui_ + le nom de l'objet principal dans Qt Designer
+
+# class MonApplication(QMainWindow):
+#     def __init__(self):
+#         super().__init__()
+#         self.ui = Ui_MainWindow()
+#         self.ui.setupUi(self)
+
+# if __name__ == "__main__":
+#     app = QApplication(sys.argv)
+#     fenetre = MonApplication()
+#     fenetre.show()
+#     sys.exit(app.exec())
+
+
+
+
+
+####################### ------------------------------- DEUXIEME METHODE ::::::::::::::::::::::::::::::::::::-----------------------------------###################
+
+# Méthode 2: Chargement dynamique à l'exécution
+
+# Cette méthode charge le fichier .ui directement à l'exécution sans le convertir au préalable. Elle est utile pour des projets où l'interface est susceptible de changer fréquemment, mais elle est légèrement moins performante que la première méthode.
+
+#     Importez la bibliothèque uic de PyQt.
+
+#     Chargez le fichier .ui en utilisant la méthode loadUi.
+
+import sys
+from PyQt6.QtWidgets import QApplication, QMainWindow
+from PyQt6.uic import loadUi
+
+class MonApplication(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        # Chargez le fichier .ui
+        loadUi("votre_fichier.ui", self)
+
+        # Vous pouvez maintenant accéder aux widgets par leur nom d'objet
+        # self.bouton_enregistrer.clicked.connect(...)
+        # self.champ_texte.setText(...)
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    fenetre = MonApplication()
+    fenetre.show()
+    sys.exit(app.exec())
+
+
+# Note : Pour que cette méthode fonctionne, le fichier .ui doit être accessible depuis l'emplacement où votre script Python est exécuté.
+

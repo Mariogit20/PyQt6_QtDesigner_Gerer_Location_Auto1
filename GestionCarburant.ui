@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GestionCarburant</class>
+ <widget class="QWidget" name="GestionCarburant">
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QGroupBox" name="formGroup">
+     <property name="title"><string>Informations du Plein</string></property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0"><widget class="QLabel" name="label_vehicule"><property name="text"><string>Véhicule :</string></property></widget></item>
+      <item row="0" column="1"><widget class="QComboBox" name="combo_vehicule"/></item>
+      <item row="1" column="0"><widget class="QLabel" name="label_date"><property name="text"><string>Date du plein :</string></property></widget></item>
+      <item row="1" column="1"><widget class="QDateEdit" name="input_date"><property name="calendarPopup"><bool>true</bool></property></widget></item>
+      <item row="2" column="0"><widget class="QLabel" name="label_montant"><property name="text"><string>Montant (€) :</string></property></widget></item>
+      <item row="2" column="1"><widget class="QLineEdit" name="input_montant"/></item>
+      <item row="3" column="0"><widget class="QLabel" name="label_litres"><property name="text"><string>Volume (Litres) :</string></property></widget></item>
+      <item row="3" column="1"><widget class="QLineEdit" name="input_litres"/></item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item><widget class="QPushButton" name="btn_nouveau"><property name="text"><string>🔄 Nouvel Enregistrement</string></property><property name="styleSheet"><string>background-color: #f39c12; color: white; font-weight: bold;</string></property></widget></item>
+     <item><widget class="QPushButton" name="btn_ajouter_plein"><property name="text"><string>➕ Ajouter</string></property></widget></item>
+     <item><widget class="QPushButton" name="btn_modifier"><property name="text"><string>✏️ Modifier</string></property></widget></item>
+     <item><widget class="QPushButton" name="btn_supprimer"><property name="text"><string>❌ Supprimer</string></property><property name="styleSheet"><string>color: red;</string></property></widget></item>
+     <item><widget class="QPushButton" name="btn_stats"><property name="text"><string>📈 Graphe Dépenses</string></property></widget></item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTreeWidget" name="tableCarburant">
+     <column><property name="text"><string>ID</string></property></column>
+     <column><property name="text"><string>Immatriculation</string></property></column>
+     <column><property name="text"><string>Date</string></property></column>
+     <column><property name="text"><string>Montant (€)</string></property></column>
+     <column><property name="text"><string>Litres</string></property></column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+</ui>

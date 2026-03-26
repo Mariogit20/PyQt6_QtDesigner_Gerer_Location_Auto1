@@ -1,0 +1,78 @@
+Pour GOOGLE CHROME :
+
+Cliquez sur la PHOTO DU PROFIL
+Dans la BARRE DE RECHERCHE , il faut coller :      "Gérer votre compte Google"
+Validation en deux étapes     (  IL FAUT      ACTIVER  )
+
+----------------------------------
+
+VALIDATION EN DEUX ETAPES    dans   GOOGLE CHROME :
+
+dans Google chrome , où se trouve la Validation en deux étapes
+
+Gemini a dit
+Pour activer ou gérer la validation en deux étapes (aussi appelée 2FA), cela ne se passe pas directement dans les "Paramètres" du navigateur Chrome lui-même, mais dans les réglages de votre Compte Google.
+
+Voici le chemin le plus rapide pour y accéder :
+
+1. Accès direct via Chrome
+Ouvrez Google Chrome sur votre ordinateur.
+
+Cliquez sur votre photo de profil (ou l'initiale de votre nom) en haut à droite de la fenêtre.
+
+Cliquez sur le bouton Gérer votre compte Google.
+
+Dans le menu de gauche, sélectionnez l'onglet Sécurité.
+
+Faites défiler la page jusqu'à la section Comment vous vous connectez à Google.
+
+Vous y trouverez l'option Validation en deux étapes.
+
+2. Accès via un lien direct
+Si vous êtes déjà connecté, vous pouvez gagner du temps en cliquant simplement sur ce lien :
+myaccount.google.com/signinoptions/two-step-verification
+
+----------------------------------
+
+Dans google Chrome , où se trouve "Mots de passe des applications" ???????????????????????????????????????
+
+C’est une question très précise ! Il est important de ne pas confondre le Gestionnaire de mots de passe (qui enregistre vos identifiants de sites web) et les Mots de passe des applications (qui sont des codes générés pour des logiciels tiers comme Outlook ou d'anciennes imprimantes).
+
+Comme pour la validation en deux étapes, ce réglage ne se trouve pas dans les menus "internes" de Chrome, mais dans votre compte Google.
+
+Le chemin pour y accéder :
+Cliquez sur votre photo de profil en haut à droite de Chrome, puis sur Gérer votre compte Google.
+
+Dans le menu de gauche, cliquez sur Sécurité.
+
+Descendez jusqu'à la section Comment vous vous connectez à Google.
+
+1) VALIDATION EN DEUX ETAPES ( A ACTIVER ) !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Cliquez sur Validation en deux étapes (même si elle est déjà activée).
+
+Tout en bas de cette page, vous trouverez l'option Mots de passe des applications.
+
+Accès ultra-rapide
+Si vous êtes déjà connecté à votre compte, vous pouvez accéder directement à la page de génération ici :
+
+Dans google Chrome , où se trouve "Mots de passe des applications" ???????????????????????????????????????
+Dans google Chrome , où se trouve "Mots de passe des applications" ???????????????????????????????????????
+Dans google Chrome , où se trouve "Mots de passe des applications" ???????????????????????????????????????
+
+2) MOT DE PASSE DES APPLICATIONS ( Lien direct ) : !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+https://myaccount.google.com/apppasswords
+https://myaccount.google.com/apppasswords
+https://myaccount.google.com/apppasswords
+
+-------------------------------------------------------------------------------------------------------------
+
+		
+        email_agence = "progsuividpe@gmail.com" 
+        mot_de_passe_app = "djgv orpv ltzc wbtn" 		
+
+
+
+
+
+
+

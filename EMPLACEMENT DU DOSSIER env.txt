@@ -1,0 +1,5 @@
+EMPLACEMENT DU DOSSIER env :
+PyQt6_QtDesigner_Gerer_Location_Auto1\env
+PyQt6_QtDesigner_Gerer_Location_Auto1\env
+
+

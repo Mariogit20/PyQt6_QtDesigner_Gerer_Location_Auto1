@@ -1,0 +1,121 @@
+{
+    "CHAUFFEUR": [],
+    "CLIENT": [],
+    "TYPE_VEHICULE": [
+        {
+            "id_type": 1,
+            "nom_type": "Voiture",
+            "intervalle_vidange_km": null,
+            "intervalle_revision_mois": null
+        },
+        {
+            "id_type": 2,
+            "nom_type": "SUV",
+            "intervalle_vidange_km": null,
+            "intervalle_revision_mois": null
+        },
+        {
+            "id_type": 3,
+            "nom_type": "Camionnette",
+            "intervalle_vidange_km": null,
+            "intervalle_revision_mois": null
+        }
+    ],
+    "FOURNISSEUR": [],
+    "UTILISATEUR": [
+        {
+            "id_user": 1,
+            "login": "admin",
+            "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+            "role": "Administrateur"
+        }
+    ],
+    "VEHICULE": [],
+    "LOCATION": [],
+    "VOYAGE": [],
+    "FACTURE_CLIENT": [],
+    "CONSOMMATION_CARBURANT": [],
+    "PIECE": [],
+    "REPARATION": [],
+    "COMMANDE_REPARATION": [],
+    "UTILISER": [],
+    "HISTORIQUE": [
+        {
+            "id_historique": 1,
+            "date_action": "2026-03-19 19:18:06",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 2,
+            "date_action": "2026-03-19 19:18:24",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-19_19-18-24.json"
+        },
+        {
+            "id_historique": 3,
+            "date_action": "2026-03-20 05:35:48",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 4,
+            "date_action": "2026-03-20 05:36:47",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-20_05-36-47.json"
+        },
+        {
+            "id_historique": 5,
+            "date_action": "2026-03-20 06:15:10",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 6,
+            "date_action": "2026-03-20 07:07:36",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-20_07-07-36.json"
+        },
+        {
+            "id_historique": 7,
+            "date_action": "2026-03-20 07:15:01",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 8,
+            "date_action": "2026-03-20 07:16:13",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-20_07-16-13.json"
+        },
+        {
+            "id_historique": 9,
+            "date_action": "2026-03-20 11:19:59",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 10,
+            "date_action": "2026-03-20 12:26:20",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-20_12-26-20.json"
+        },
+        {
+            "id_historique": 11,
+            "date_action": "2026-03-20 12:28:04",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        }
+    ]
+}

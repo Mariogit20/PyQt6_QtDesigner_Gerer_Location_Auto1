@@ -1,0 +1,12 @@
+OUVRIR un NOUVEAU TERMINAL     CTRL  J     de VISUAL STUDIO CODE (VSCode) :
+
+
+
+
+PS D:\PYTHON DJANGO HOPES\Projet_LOGICIEL_PyQt6_QtDesigner_Show> & "d:\PYTHON DJANGO HOPES\Projet_LOGICIEL_PyQt6_QtDesigner_Show\env\Scripts\Activate.ps1"
+(env) PS D:\PYTHON DJANGO HOPES\Projet_LOGICIEL_PyQt6_QtDesigner_Show> python Login.py
+E-mail de confirmation envoyé avec succès à halleymariomen@gmail.com !
+(env) PS D:\PYTHON DJANGO HOPES\Projet_LOGICIEL_PyQt6_QtDesigner_Show> 
+
+
+

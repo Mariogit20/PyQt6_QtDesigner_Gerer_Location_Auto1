@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GestionReparation</class>
+ <widget class="QWidget" name="GestionReparation">
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QGroupBox" name="formGroup">
+     <property name="title"><string>Détails de l'Intervention</string></property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0"><widget class="QLabel" name="label_vehicule"><property name="text"><string>Véhicule :</string></property></widget></item>
+      <item row="0" column="1"><widget class="QComboBox" name="combo_vehicule"/></item>
+      <item row="1" column="0"><widget class="QLabel" name="label_type_maintenance"><property name="text"><string>Type :</string></property></widget></item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="combo_type_maintenance">
+        <item><property name="text"><string>Corrective (Panne)</string></property></item>
+        <item><property name="text"><string>Préventive (Révision)</string></property></item>
+       </widget>
+      </item>
+      <item row="2" column="0"><widget class="QLabel" name="label_panne"><property name="text"><string>Nature Panne :</string></property></widget></item>
+      <item row="2" column="1"><widget class="QLineEdit" name="input_nature"/></item>
+      <item row="3" column="0"><widget class="QLabel" name="label_date_debut"><property name="text"><string>Date Début :</string></property></widget></item>
+      <item row="3" column="1"><widget class="QDateEdit" name="date_debut"><property name="calendarPopup"><bool>true</bool></property></widget></item>
+      <item row="4" column="0"><widget class="QLabel" name="label_cout_mo"><property name="text"><string>Coût MO (€) :</string></property></widget></item>
+      <item row="4" column="1"><widget class="QLineEdit" name="input_cout_mo"/></item>
+      <item row="5" column="0"><widget class="QLabel" name="label_description"><property name="text"><string>Description :</string></property></widget></item>
+      <item row="5" column="1"><widget class="QTextEdit" name="input_description_travaux"><property name="maximumHeight"><number>50</number></property></widget></item>
+      <item row="6" column="0"><widget class="QLabel" name="label_date_fin"><property name="text"><string>Date Fin :</string></property></widget></item>
+      <item row="6" column="1"><widget class="QDateEdit" name="date_fin"><property name="calendarPopup"><bool>true</bool></property></widget></item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item><widget class="QPushButton" name="btn_enregistrer"><property name="text"><string>Ouvrir Réparation</string></property></widget></item>
+     <item><widget class="QPushButton" name="btn_cloturer"><property name="text"><string>Clôturer Réparation</string></property></widget></item>
+    </layout>
+   </item>
+   <item><widget class="QTreeWidget" name="tableReparations"><column><property name="text"><string>...</string></property></column></widget></item>
+  </layout>
+ </widget>
+</ui>

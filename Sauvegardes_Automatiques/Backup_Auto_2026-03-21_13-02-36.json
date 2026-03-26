@@ -1,0 +1,473 @@
+{
+    "CHAUFFEUR": [
+        {
+            "id_chauffeur": 1,
+            "nom": "RAHARIMANANA",
+            "prenom": "Bernard",
+            "telephone": "0341276492",
+            "date_permis": null,
+            "type_permis": "B ET C"
+        },
+        {
+            "id_chauffeur": 2,
+            "nom": "BERNARD",
+            "prenom": "Luc",
+            "telephone": "0611223344",
+            "date_permis": null,
+            "type_permis": "B, B1"
+        },
+        {
+            "id_chauffeur": 3,
+            "nom": "DIALLO ",
+            "prenom": "Aminata",
+            "telephone": "0755667788 ",
+            "date_permis": null,
+            "type_permis": "B, C (POIDS LOURD)"
+        }
+    ],
+    "CLIENT": [
+        {
+            "id_client": 1,
+            "nom": "RAZAKAMARIKOTO",
+            "prenom": "Edvige d'Assisé",
+            "email": "mariomariochatgpt@gmail.com",
+            "telephone": "0321742593",
+            "adresse": "Lot 14 V Ivandry d'Arivo"
+        },
+        {
+            "id_client": 2,
+            "nom": "Dupont",
+            "prenom": "Jean",
+            "email": "jean.dupont@email.com",
+            "telephone": "0601020304",
+            "adresse": "Lot 14 Rue Bavière"
+        },
+        {
+            "id_client": 3,
+            "nom": "Martin",
+            "prenom": "Sophie",
+            "email": "smartin@entreprise.com",
+            "telephone": "0708091011",
+            "adresse": "Lot II K Mananara"
+        }
+    ],
+    "TYPE_VEHICULE": [
+        {
+            "id_type": 1,
+            "nom_type": "Voiture",
+            "intervalle_vidange_km": null,
+            "intervalle_revision_mois": null
+        },
+        {
+            "id_type": 2,
+            "nom_type": "SUV",
+            "intervalle_vidange_km": null,
+            "intervalle_revision_mois": null
+        },
+        {
+            "id_type": 3,
+            "nom_type": "Camionnette",
+            "intervalle_vidange_km": null,
+            "intervalle_revision_mois": null
+        }
+    ],
+    "FOURNISSEUR": [],
+    "UTILISATEUR": [
+        {
+            "id_user": 1,
+            "login": "admin",
+            "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+            "role": "Administrateur"
+        }
+    ],
+    "VEHICULE": [
+        {
+            "immatriculation": "7412 TAA",
+            "marque": "Volkswagen",
+            "modele": "Touareg",
+            "annee": null,
+            "kilometrage_actuel": 42000,
+            "capacite_places": null,
+            "statut_disponibilite": "Disponible",
+            "date_echeance_assurance": "2026-03-20",
+            "id_type": 1
+        },
+        {
+            "immatriculation": "AB-123-CD",
+            "marque": "Peugeot",
+            "modele": "208",
+            "annee": null,
+            "kilometrage_actuel": 45000,
+            "capacite_places": null,
+            "statut_disponibilite": "Disponible",
+            "date_echeance_assurance": "2026-03-30",
+            "id_type": 1
+        },
+        {
+            "immatriculation": "EF-456-GH",
+            "marque": "Renault",
+            "modele": "Trafic",
+            "annee": null,
+            "kilometrage_actuel": 120000,
+            "capacite_places": null,
+            "statut_disponibilite": "Disponible",
+            "date_echeance_assurance": "2026-03-27",
+            "id_type": 1
+        },
+        {
+            "immatriculation": "IJ-789-KL",
+            "marque": "Toyota",
+            "modele": "Yaris",
+            "annee": null,
+            "kilometrage_actuel": 15000,
+            "capacite_places": null,
+            "statut_disponibilite": "Disponible",
+            "date_echeance_assurance": "2027-08-13",
+            "id_type": 1
+        }
+    ],
+    "LOCATION": [
+        {
+            "id_location": 1,
+            "date_sortie": "2026-03-20 13:29:55",
+            "date_retour_prevue": "2026-03-23 13:29:55",
+            "date_retour_reelle": null,
+            "kilometrage_depart": null,
+            "kilometrage_retour": null,
+            "statut_location": "En attente",
+            "id_client": 1,
+            "immatriculation": "7412 TAA",
+            "id_chauffeur": null,
+            "confirmation_client": 0,
+            "date_envoi_confirmation": "2026-03-20 15:09:04"
+        },
+        {
+            "id_location": 2,
+            "date_sortie": "2026-03-21 11:37:00",
+            "date_retour_prevue": "2026-04-09 11:37:00",
+            "date_retour_reelle": null,
+            "kilometrage_depart": null,
+            "kilometrage_retour": null,
+            "statut_location": "En attente",
+            "id_client": 3,
+            "immatriculation": "EF-456-GH",
+            "id_chauffeur": 2,
+            "confirmation_client": 0,
+            "date_envoi_confirmation": null
+        }
+    ],
+    "VOYAGE": [
+        {
+            "id_voyage": 1,
+            "id_client": 1,
+            "immatriculation": "7412 TAA",
+            "id_chauffeur": 1,
+            "lieu_depart": "Paris",
+            "lieu_arrivee": "Marseille",
+            "date_debut_planifiee": "2026-03-20 13:15:54",
+            "date_fin_reelle": "2026-03-20 13:28:18",
+            "distance_estimee": 45000.0,
+            "statut_voyage": "Facturé"
+        }
+    ],
+    "FACTURE_CLIENT": [
+        {
+            "id_facture": 1,
+            "date_emission": "2026-03-20 13:41:46",
+            "date_echeance": "2026-04-19 13:41:46",
+            "montant_HT": 112500.0,
+            "montant_TVA": 22500.0,
+            "statut_paiement": "En attente",
+            "id_location": null,
+            "id_voyage": 1
+        }
+    ],
+    "CONSOMMATION_CARBURANT": [],
+    "PIECE": [
+        {
+            "id_piece": 1,
+            "nom_piece": "Filtre à huile",
+            "reference_fournisseur": "FH-PEU-01",
+            "prix_unitaire": 15.5,
+            "quantite_stock": 10
+        },
+        {
+            "id_piece": 2,
+            "nom_piece": "Plaquettes de frein",
+            "reference_fournisseur": "PF-REN-05",
+            "prix_unitaire": 45.99,
+            "quantite_stock": 4
+        },
+        {
+            "id_piece": 3,
+            "nom_piece": "Pneu Michelin",
+            "reference_fournisseur": "PN-MICH-15",
+            "prix_unitaire": 85.0,
+            "quantite_stock": 8
+        }
+    ],
+    "REPARATION": [],
+    "COMMANDE_REPARATION": [],
+    "UTILISER": [],
+    "HISTORIQUE": [
+        {
+            "id_historique": 1,
+            "date_action": "2026-03-20 13:15:53",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 2,
+            "date_action": "2026-03-20 13:22:25",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Client",
+            "details": "Client ajouté: RAZAKAMARIKOTO Edvige d'Assisé"
+        },
+        {
+            "id_historique": 3,
+            "date_action": "2026-03-20 13:24:27",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Véhicule",
+            "details": "Véhicule Volkswagen Touareg ajouté (Immat: 7412 TAA)"
+        },
+        {
+            "id_historique": 4,
+            "date_action": "2026-03-20 13:27:21",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Chauffeur",
+            "details": "Chauffeur RAHARIMANANA Bernard ajouté"
+        },
+        {
+            "id_historique": 5,
+            "date_action": "2026-03-20 13:27:39",
+            "utilisateur": "Utilisateur",
+            "action": "Planification Voyage",
+            "details": "De Paris vers Marseille (Client ID: 1, Véhicule: 7412 TAA)"
+        },
+        {
+            "id_historique": 6,
+            "date_action": "2026-03-20 13:28:18",
+            "utilisateur": "Utilisateur",
+            "action": "Clôture Voyage",
+            "details": "Voyage ID 1 terminé."
+        },
+        {
+            "id_historique": 7,
+            "date_action": "2026-03-20 13:30:25",
+            "utilisateur": "Utilisateur",
+            "action": "Nouvelle Réservation",
+            "details": "Location N°1 créée (En attente de confirmation client)"
+        },
+        {
+            "id_historique": 8,
+            "date_action": "2026-03-20 13:31:01",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-20_13-31-01.json"
+        },
+        {
+            "id_historique": 9,
+            "date_action": "2026-03-20 13:40:46",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 10,
+            "date_action": "2026-03-20 13:41:46",
+            "utilisateur": "Utilisateur",
+            "action": "Facturation",
+            "details": "Facture émise pour le voyage 1 (112500.0€ HT)"
+        },
+        {
+            "id_historique": 11,
+            "date_action": "2026-03-20 14:15:14",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-20_14-15-14.json"
+        },
+        {
+            "id_historique": 12,
+            "date_action": "2026-03-20 14:17:09",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 13,
+            "date_action": "2026-03-20 14:46:28",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-20_14-46-28.json"
+        },
+        {
+            "id_historique": 14,
+            "date_action": "2026-03-20 14:49:44",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 15,
+            "date_action": "2026-03-20 14:50:34",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-20_14-50-34.json"
+        },
+        {
+            "id_historique": 16,
+            "date_action": "2026-03-20 14:52:55",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 17,
+            "date_action": "2026-03-20 15:08:28",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-20_15-08-28.json"
+        },
+        {
+            "id_historique": 18,
+            "date_action": "2026-03-20 15:08:48",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 19,
+            "date_action": "2026-03-20 15:09:26",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-20_15-09-26.json"
+        },
+        {
+            "id_historique": 20,
+            "date_action": "2026-03-21 10:54:16",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 21,
+            "date_action": "2026-03-21 10:58:23",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Véhicule",
+            "details": "Véhicule Peugeot 208 ajouté (Immat: AB-123-CD)"
+        },
+        {
+            "id_historique": 22,
+            "date_action": "2026-03-21 10:59:44",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Véhicule",
+            "details": "Véhicule Renault Trafic ajouté (Immat: EF-456-GH)"
+        },
+        {
+            "id_historique": 23,
+            "date_action": "2026-03-21 11:01:28",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Véhicule",
+            "details": "Véhicule Toyota Yaris ajouté (Immat: IJ-789-KL)"
+        },
+        {
+            "id_historique": 24,
+            "date_action": "2026-03-21 11:03:07",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Client",
+            "details": "Client ajouté: Dupont Jean"
+        },
+        {
+            "id_historique": 25,
+            "date_action": "2026-03-21 11:04:21",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Client",
+            "details": "Client ajouté: Martin Sophie"
+        },
+        {
+            "id_historique": 26,
+            "date_action": "2026-03-21 11:05:17",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Chauffeur",
+            "details": "Chauffeur BERNARD Luc ajouté"
+        },
+        {
+            "id_historique": 27,
+            "date_action": "2026-03-21 11:06:02",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Chauffeur",
+            "details": "Chauffeur DIALLO  Aminata ajouté"
+        },
+        {
+            "id_historique": 28,
+            "date_action": "2026-03-21 11:07:40",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Pièce",
+            "details": "Pièce ajoutée: Filtre à huile (Réf: FH-PEU-01)"
+        },
+        {
+            "id_historique": 29,
+            "date_action": "2026-03-21 11:09:01",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Pièce",
+            "details": "Pièce ajoutée: Plaquettes de frein (Réf: PF-REN-05)"
+        },
+        {
+            "id_historique": 30,
+            "date_action": "2026-03-21 11:09:46",
+            "utilisateur": "Utilisateur",
+            "action": "Ajout Pièce",
+            "details": "Pièce ajoutée: Pneu Michelin (Réf: PN-MICH-15)"
+        },
+        {
+            "id_historique": 31,
+            "date_action": "2026-03-21 11:28:11",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-21_11-28-11.json"
+        },
+        {
+            "id_historique": 32,
+            "date_action": "2026-03-21 11:33:32",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 33,
+            "date_action": "2026-03-21 12:14:36",
+            "utilisateur": "Utilisateur",
+            "action": "Nouvelle Réservation",
+            "details": "Location N°2 créée (En attente de confirmation client)"
+        },
+        {
+            "id_historique": 34,
+            "date_action": "2026-03-21 12:14:37",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-21_12-14-37.json"
+        },
+        {
+            "id_historique": 35,
+            "date_action": "2026-03-21 12:36:09",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        },
+        {
+            "id_historique": 36,
+            "date_action": "2026-03-21 12:52:58",
+            "utilisateur": "Système",
+            "action": "Auto-Backup",
+            "details": "Sauvegarde locale générée : D:\\PYTHON DJANGO HOPES\\Projet_LOGICIEL_PyQt6_QtDesigner_Show\\Sauvegardes_Automatiques\\Backup_Auto_2026-03-21_12-52-58.json"
+        },
+        {
+            "id_historique": 37,
+            "date_action": "2026-03-21 13:01:10",
+            "utilisateur": "admin",
+            "action": "Connexion Système",
+            "details": "Session ouverte avec le rôle : Administrateur"
+        }
+    ]
+}

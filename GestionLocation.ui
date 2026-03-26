@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GestionLocation</class>
+ <widget class="QWidget" name="GestionLocation">
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QGroupBox" name="formGroup">
+     <property name="title"><string>Mouvement de Véhicule</string></property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0"><widget class="QLabel" name="label_client"><property name="text"><string>Client :</string></property></widget></item>
+      <item row="0" column="1"><widget class="QComboBox" name="combo_client"/></item>
+      <item row="1" column="0"><widget class="QLabel" name="label_vehicule"><property name="text"><string>Véhicule :</string></property></widget></item>
+      <item row="1" column="1"><widget class="QComboBox" name="combo_vehicule"/></item>
+      <item row="2" column="0"><widget class="QLabel" name="label_chauffeur"><property name="text"><string>Chauffeur (Optionnel) :</string></property></widget></item>
+      <item row="2" column="1"><widget class="QComboBox" name="combo_chauffeur"/></item>
+      <item row="3" column="0"><widget class="QLabel" name="label_lieu"><property name="text"><string>Destination :</string></property></widget></item>
+      <item row="3" column="1"><widget class="QLineEdit" name="input_lieu"><property name="placeholderText"><string>Ex: Aéroport, Hôtel, Ville...</string></property></widget></item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item><widget class="QPushButton" name="btn_planifier"><property name="text"><string>🚗 Enregistrer Sortie</string></property></widget></item>
+     <item><widget class="QPushButton" name="btn_terminer"><property name="text"><string>🏁 Enregistrer Retour</string></property></widget></item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTreeWidget" name="tableVoyages">
+     <column><property name="text"><string>ID</string></property></column>
+     <column><property name="text"><string>Client</string></property></column>
+     <column><property name="text"><string>Véhicule</string></property></column>
+     <column><property name="text"><string>Statut</string></property></column>
+     <column><property name="text"><string>Date Sortie</string></property></column>
+     <column><property name="text"><string>Date Retour</string></property></column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+</ui>

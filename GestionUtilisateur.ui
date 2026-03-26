@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GestionUtilisateur</class>
+ <widget class="QWidget" name="GestionUtilisateur">
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QGroupBox" name="formGroup">
+     <property name="title"><string>Informations du Compte</string></property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0"><widget class="QLabel" name="label_login"><property name="text"><string>Login :</string></property></widget></item>
+      <item row="0" column="1"><widget class="QLineEdit" name="input_login"/></item>
+      <item row="1" column="0"><widget class="QLabel" name="label_password"><property name="text"><string>Mot de passe :</string></property></widget></item>
+      <item row="1" column="1"><widget class="QLineEdit" name="input_password"><property name="placeholderText"><string>Laisser vide pour ne pas modifier</string></property></widget></item>
+      <item row="2" column="0"><widget class="QLabel" name="label_role"><property name="text"><string>Rôle :</string></property></widget></item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="combo_role">
+        <item><property name="text"><string>Administrateur</string></property></item>
+        <item><property name="text"><string>Employe</string></property></item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item><widget class="QPushButton" name="btn_nouveau"><property name="text"><string>🔄 Nouvel Enregistrement</string></property><property name="styleSheet"><string>background-color: #f39c12; color: white; font-weight: bold;</string></property></widget></item>
+     <item><widget class="QPushButton" name="btn_ajouter"><property name="text"><string>Créer Compte</string></property></widget></item>
+     <item><widget class="QPushButton" name="btn_modifier"><property name="text"><string>Modifier Accès</string></property></widget></item>
+     <item><widget class="QPushButton" name="btn_supprimer"><property name="text"><string>Supprimer</string></property></widget></item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTreeWidget" name="tableUtilisateurs">
+     <column><property name="text"><string>ID</string></property></column>
+     <column><property name="text"><string>Login</string></property></column>
+     <column><property name="text"><string>Rôle</string></property></column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+</ui>
