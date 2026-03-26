@@ -1,0 +1,654 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github24/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24 (master)
+$ git clone https://github.com/Mariogit20/PyQt6_QtDesigner_Gerer_Location_Auto1.git
+Cloning into 'PyQt6_QtDesigner_Gerer_Location_Auto1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24 (master)
+$ git add .
+warning: adding embedded git repository: PyQt6_QtDesigner_Gerer_Location_Auto1
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> PyQt6_QtDesigner_Gerer_Location_Auto1
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached PyQt6_QtDesigner_Gerer_Location_Auto1
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config advice.addEmbeddedRepo false"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24 (master)
+$ git commit -m "sauvegarde"
+[master (root-commit) e2fc9f6] sauvegarde
+ 1 file changed, 1 insertion(+)
+ create mode 160000 PyQt6_QtDesigner_Gerer_Location_Auto1
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24 (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository us
+ing
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24 (master)
+$ cd
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github24/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24 (master)
+$ git clone https://github.com/Mariogit20/PyQt6_QtDesigner_Gerer_Location_Auto1.git
+Cloning into 'PyQt6_QtDesigner_Gerer_Location_Auto1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24 (master)
+$ git add .
+warning: adding embedded git repository: PyQt6_QtDesigner_Gerer_Location_Auto1
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+^C)reAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24 (mast
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24 (master)
+$ cd PyQt6_QtDesigner_Gerer_Location_Auto1
+p
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24/PyQt6_QtDesigner_Gerer_Location_Auto1 (main)
+$ git add .
+pwarning: in the working copy of 'Contrat_1_RAZAKAMARIKOTO.pdf', LF will be repl
+aced by CRLF the next time Git touches it
+warning: in the working copy of 'Contrat_2_Martin.pdf', LF will be replaced by C
+RLF the next time Git touches it
+warning: in the working copy of 'Exemple_Fichier_JSON/Contrat_1_RAZAKAMARIKOTO.p
+df', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Exemple_Fichier_JSON/Contrat_3_RAZAKAMARIKOTO.p
+df', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Exemple_Fichier_JSON/Contrat_4_Dupont.pdf', LF
+will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Exemple_Fichier_JSON/Contrat_Location_8_Dupont.
+pdf', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/HYZlMEXM6ED6_vs_loader.js', LF will be replaced by CRLF the next time Git
+ touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/cb=gapi.loaded_0', LF will be replaced by CRLF the next time Git touches
+it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/common.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/destination', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/editor.main.css', LF will be replaced by CRLF the next time Git touches i
+t
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/editor.main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/gtm.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/highlight.pack.js', LF will be replaced by CRLF the next time Git touches
+ it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/js_002', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/lazy.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/m=_b', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/routes.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/rs=AA2YrTtqQBzHPMqVb9ymSBkWHEaw7gav3Q', LF will be replaced by CRLF the n
+ext time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/Google Gemini_fi
+chiers/util.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+HYZlMEXM6ED6_vs_loader.js', LF will be replaced by CRLF the next time Git touche
+s it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+cb=gapi.loaded_0', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+common.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+destination', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+editor.main.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+editor.main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+gtm.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+highlight.pack.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+js_002', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+lazy.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+m=_b', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+routes.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+rs=AA2YrTtqQBzHPMqVb9ymSBkWHEaw7gav3Q', LF will be replaced by CRLF the next tim
+e Git touches it
+warning: in the working copy of 'QtDesigner loadUi PYTHON py OK/loadUi_fichiers/
+util.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/HYZ
+lMEXM6ED6_vs_loader.js', LF will be replaced by CRLF the next time Git touches i
+t
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/cb=
+gapi.loaded_0', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/com
+mon.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/des
+tination', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/edi
+tor.main.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/edi
+tor.main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/gtm
+.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/hig
+hlight.pack.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/js'
+, LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/js_
+002', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/laz
+y.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/m=_
+b', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/mai
+n.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/rou
+tes.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/rs=
+AA2YrTtqQBzHPMqVb9ymSBkWHEaw7gav3Q', LF will be replaced by CRLF the next time G
+it touches it
+warning: in the working copy of 'nombre_N_est_premier/Google Gemini_fichiers/uti
+l.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/PyQt6_nombre_premier.py',
+LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/main_nombre_N_est_premier.
+py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'nombre_N_est_premier/modul_nombre_premier.py',
+LF will be replaced by CRLF the next time Git touches it
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24/PyQt6_QtDesigner_Gerer_Location_Auto1 (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24/PyQt6_QtDesigner_Gerer_Location_Auto1 (main)
+$ git add *
+The following paths are ignored by one of your .gitignore files:
+__pycache__
+env
+hint: Use -f if you really want to add them.
+hint: Disable this message with "git config advice.addIgnoredFile false"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24/PyQt6_QtDesigner_Gerer_Location_Auto1 (main)
+$ git commit -m "sauvegarde fichiers"
+[main be59209] sauvegarde fichiers
+ 262 files changed, 261110 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 CALCUL Facture.docx
+ create mode 100644 CALCUL Facture.pdf
+ create mode 100644 CALCUL Facture2.docx
+ create mode 100644 CALCUL Facture2.pdf
+ create mode 100644 COMPILER Code Source .py VERS Executable Win .exe.docx
+ create mode 100644 COMPILER Code Source .py VERS Executable Win .pdf
+ create mode 100644 COMPILER Fichier PYTHON .py VERS WINDOWS .exe.docx
+ create mode 100644 COMPILER Fichier PYTHON .py VERS WINDOWS .exe.pdf
+ create mode 100644 Charger Fichier QtDesigner ui dans Python py.txt
+ create mode 100644 Contrat_1_RAZAKAMARIKOTO.pdf
+ create mode 100644 Contrat_2_Martin.pdf
+ create mode 100644 DETERMINER le MOT DE PASSE D APPLICATION dans GMAIL.docx
+ create mode 100644 DETERMINER le MOT DE PASSE D APPLICATION dans GMAIL.pdf
+ create mode 100644 EMPLACEMENT DU DOSSIER env.txt
+ create mode 100644 ENVOYER Email AVEC Gmail de GOOGLE CHROME Fonctionne.docx
+ create mode 100644 ENVOYER Email AVEC Gmail de GOOGLE CHROME Fonctionne.pdf
+ create mode 100644 ENVOYER Email AVEC Gmail de GOOGLE CHROME.txt
+ create mode 100644 ENVOYER Email de Confirmation AVEC Gmail progsuividpeAROBASE
+gmail.com.docx
+ create mode 100644 ENVOYER Email de Confirmation AVEC Gmail progsuividpeAROBASE
+gmail.com.txt
+ create mode 100644 ENVOYER Email de Confirmation AVEC Gmail progsuividpeAROBASE
+gmail.pdf
+ create mode 100644 ENVOYER un E-MAIL avec GMAIL depuis PYTHON.docx
+ create mode 100644 ENVOYER un E-MAIL avec GMAIL depuis PYTHON.pdf
+ create mode 100644 Exemple_Fichier_JSON/Analyse_Carburant.jpeg
+ create mode 100644 Exemple_Fichier_JSON/Analyse_Carburant.png
+ create mode 100644 Exemple_Fichier_JSON/Contrat_1_RAZAKAMARIKOTO.pdf
+ create mode 100644 Exemple_Fichier_JSON/Contrat_3_RAZAKAMARIKOTO.pdf
+ create mode 100644 Exemple_Fichier_JSON/Contrat_4_Dupont.pdf
+ create mode 100644 Exemple_Fichier_JSON/Contrat_Location_8_Dupont.pdf
+ create mode 100644 Exemple_Fichier_JSON/Donnees_Carburant.json
+ create mode 100644 Exo11_loadUi NOMBRE PREMIER.rar
+ create mode 100644 GestionAccueil - Copie.py
+ create mode 100644 GestionAccueil.py
+ create mode 100644 GestionCarburant.py
+ create mode 100644 GestionCarburant.ui
+ create mode 100644 GestionChauffeur.py
+ create mode 100644 GestionChauffeur.ui
+ create mode 100644 GestionClient.py
+ create mode 100644 GestionClient.ui
+ create mode 100644 GestionFournisseur.py
+ create mode 100644 GestionFournisseur.ui
+ create mode 100644 GestionHistorique.py
+ create mode 100644 GestionIA.py
+ create mode 100644 GestionImportExport.py
+ create mode 100644 GestionLocation EN UTF8.txt
+ create mode 100644 GestionLocation.py
+ create mode 100644 GestionLocation.ui
+ create mode 100644 GestionPlanning.py
+ create mode 100644 GestionRechercheClient.py
+ create mode 100644 GestionReparation.py
+ create mode 100644 GestionReparation.ui
+ create mode 100644 GestionStockEtCommandes.py
+ create mode 100644 GestionStockEtCommandes.ui
+ create mode 100644 GestionUtilisateur.py
+ create mode 100644 GestionUtilisateur.ui
+ create mode 100644 GestionVehicule EN UTF8.txt
+ create mode 100644 GestionVehicule.py
+ create mode 100644 GestionVehicule.ui
+ create mode 100644 GestionVoyage.py
+ create mode 100644 GestionVoyage.ui
+ create mode 100644 "G\303\251n\303\251rer EXE avec TERMINAL de VSCode.docx"
+ create mode 100644 "G\303\251n\303\251rer EXE avec TERMINAL de VSCode.pdf"
+ create mode 100644 Homepage.ui
+ create mode 100644 Load_File_QtDesigner_ui_in_Python_py.txt
+ create mode 100644 Login.py
+ create mode 100644 Login.ui
+ create mode 100644 MOT DE PASSE D APPLICATION dans GMAIL.docx
+ create mode 100644 MOT DE PASSE D APPLICATION dans GMAIL.pdf
+ create mode 100644 "PASSWORD ADMINISTRATEUR par d\303\251faut.docx"
+ create mode 100644 "PASSWORD ADMINISTRATEUR par d\303\251faut.pdf"
+ create mode 100644 "PASSWORD ADMINISTRATEUR par d\303\251faut.txt"
+ create mode 100644 PageCRUDdelete.ui
+ create mode 100644 PageCRUDread.ui
+ create mode 100644 PageCRUDupdate.ui
+ create mode 100644 PageNombrePREMIER.ui
+ create mode 100644 QUELQUES IMAGES/Rental_Manager_IMAGE.png
+ create mode 100644 QUELQUES IMAGES/Rental_Manager_LOGICIEL.png
+ create mode 100644 QUELQUES IMAGES/app_icon.png.png
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini.htm
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/HYZlME
+XM6ED6_vs_loader.js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/a.htm
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/a_data
+/sw_iframe.htm
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/bscfra
+me.htm
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/cb=gap
+i.loaded_0
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/common
+.js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/destin
+ation
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/editor
+.main.css
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/editor
+.main.js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/gtm.js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/highli
+ght.pack.js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/js_002
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/lazy.m
+in.js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/m=_b
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/main.j
+s
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/routes
+.js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/rs=AA2
+YrTtqQBzHPMqVb9ymSBkWHEaw7gav3Q
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/rs=AA2
+YrTv9DY7QlXx6o0tkj96JKbLObvE-yA.css
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/unname
+d.png
+ create mode 100644 QtDesigner loadUi PYTHON py OK/Google Gemini_fichiers/util.j
+s
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi.docx
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi.htm
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi.pdf
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/HYZlMEXM6ED6_
+vs_loader.js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/a.htm
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/a_data/sw_ifr
+ame.htm
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/bscframe.htm
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/cb=gapi.loade
+d_0
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/common.js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/destination
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/editor.main.c
+ss
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/editor.main.j
+s
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/gtm.js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/highlight.pac
+k.js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/js_002
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/lazy.min.js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/m=_b
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/main.js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/routes.js
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/rs=AA2YrTtqQB
+zHPMqVb9ymSBkWHEaw7gav3Q
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/rs=AA2YrTv9DY
+7QlXx6o0tkj96JKbLObvE-yA.css
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/unnamed.png
+ create mode 100644 QtDesigner loadUi PYTHON py OK/loadUi_fichiers/util.js
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-17_18-51-37.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-17_19-40-36.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-17_19-46-44.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-17_20-03-57.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-17_20-17-14.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-17_20-21-21.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-17_21-40-26.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-18_14-08-17.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-19_08-23-18.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-19_13-30-05.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-19_15-55-48.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-19_16-51-40.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-19_17-39-14.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-19_18-13-53.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-19_18-40-34.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-19_19-08-02.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-19_19-11-12.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-19_19-17-21.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-19_19-18-24.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-20_05-36-47.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-20_07-07-36.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-20_07-16-13.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-20_12-26-20.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-20_13-08-02.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-20_13-31-01.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-20_14-15-14.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-20_14-46-28.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-20_14-50-34.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-20_15-08-28.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-20_15-09-26.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-21_11-28-11.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-21_12-14-37.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-21_12-52-58.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-21_13-02-36.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-21_13-03-12.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-21_13-05-37.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-21_13-11-32.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-21_13-32-02.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-21_13-43-07.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-21_14-00-25.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-21_14-34-20.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-21_14-49-40.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-21_15-35-12.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-21_15-38-51.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-22_21-41-55.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-22_21-51-43.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-23_06-03-42.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-23_06-11-12.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-23_06-23-03.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-23_06-25-26.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-23_06-29-10.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-23_06-32-23.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-23_14-30-58.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-23_14-44-03.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-23_14-57-33.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-23_15-52-43.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-23_15-55-37.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-23_16-21-13.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-23_16-35-22.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-23_16-39-59.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-23_16-51-29.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-25_11-52-22.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-25_12-03-45.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-25_12-41-53.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-25_12-51-28.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-25_12-54-32.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-25_13-53-47.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-25_14-06-09.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-25_14-08-46.jso
+n
+ create mode 100644 Sauvegardes_Automatiques/Backup_Auto_2026-03-26_14-01-36.jso
+n
+ create mode 100644 User_form.py
+ create mode 100644 User_form.ui
+ create mode 100644 VerificateurEmail.py
+ create mode 100644 app_icon.png.png
+ create mode 100644 bdd.db
+ create mode 100644 "exemples de donn\303\251es \303\240 saisir pour chaque ongl
+et.docx"
+ create mode 100644 "exemples de donn\303\251es \303\240 saisir pour chaque ongl
+et.pdf"
+ create mode 100644 flotte_voyage.db
+ create mode 100644 gemini 3.1 Pro FINAL 2.docx
+ create mode 100644 gemini 3.1 Pro FINAL 2.pdf
+ create mode 100644 gemini 3.1 Pro FINAL 3 EXECUTABLE WINDOWS.docx
+ create mode 100644 gemini 3.1 Pro FINAL 3.pdf
+ create mode 100644 gemini 3.1 Pro FINAL 4.docx
+ create mode 100644 gemini 3.1 Pro FINAL 4.pdf
+ create mode 100644 gemini 3.1 Pro FINAL 5.docx
+ create mode 100644 gemini 3.1 Pro FINAL 5.pdf
+ create mode 100644 gemini 3.1 Pro FINAL.docx
+ create mode 100644 gemini 3.1 Pro FINAL.pdf
+ create mode 100644 gemini 3.1 Pro.docx
+ create mode 100644 main.py
+ create mode 100644 main.ui
+ create mode 100644 mso1826.tmp
+ create mode 100644 nombre_N_est_premier/Google Gemini.htm
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/HYZlMEXM6ED6_vs_
+loader.js
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/a.htm
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/a_data/sw_iframe
+.htm
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/bscframe.htm
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/cb=gapi.loaded_0
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/common.js
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/destination
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/editor.main.css
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/editor.main.js
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/gtm.js
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/highlight.pack.j
+s
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/js
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/js_002
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/lazy.min.js
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/m=_b
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/main.js
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/routes.js
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/rs=AA2YrTtqQBzHP
+MqVb9ymSBkWHEaw7gav3Q
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/rs=AA2YrTv9DY7Ql
+Xx6o0tkj96JKbLObvE-yA.css
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/unnamed.png
+ create mode 100644 nombre_N_est_premier/Google Gemini_fichiers/util.js
+ create mode 100644 nombre_N_est_premier/PyQt6_nombre_premier.py
+ create mode 100644 nombre_N_est_premier/__init__.py
+ create mode 100644 nombre_N_est_premier/main_nombre_N_est_premier.py
+ create mode 100644 nombre_N_est_premier/modul_nombre_premier.py
+ create mode 100644 pack/__init__.py
+ create mode 100644 pack/affichage.py
+ create mode 100644 pack/create_table.py
+ create mode 100644 pack/database.py
+ create mode 100644 pack/insertion.py
+ create mode 100644 pack/message.py
+ create mode 100644 pack/modification.py
+ create mode 100644 pack/suppression.py
+ create mode 100644 packageNumeroForeignKey/NumeroForeignKey.py
+ create mode 100644 packageNumeroForeignKey/__init__.py
+ create mode 100644 requirements.txt
+ create mode 100644 style.py
+ create mode 100644 ui/Login.ui
+ create mode 100644 ui/PageCRUDcreate.ui
+ create mode 100644 ui/PageCRUDdelete.ui
+ create mode 100644 ui/PageCRUDshow.ui
+ create mode 100644 ui/PageCRUDupdate.ui
+ create mode 100644 ui/main.ui
+ create mode 100644 ui/sidebar.ui
+ create mode 100644 utils.py
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24/PyQt6_QtDesigner_Gerer_Location_Auto1 (main)
+$ git pushp
+Enumerating objects: 225, done.
+Counting objects: 100% (225/225), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (222/222), done.
+Writing objects: 100% (224/224), 47.26 MiB | 9.11 MiB/s, done.
+Total 224 (delta 106), reused 0 (delta 0), pack-reused 0 (from 0)
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24/PyQt6_QtDesigner_Gerer_Location_Auto1 (main)
+$ git config --global http.postBuffer 524288000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24/PyQt6_QtDesigner_Gerer_Location_Auto1 (main)
+$ git push
+Enumerating objects: 225, done.
+Counting objects: 100% (225/225), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (222/222), done.
+Writing objects: 100% (224/224), 47.26 MiB | 9.69 MiB/s, done.
+Total 224 (delta 106), reused 0 (delta 0), pack-reused 0 (from 0)
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24/PyQt6_QtDesigner_Gerer_Location_Auto1 (main)
+$ git config --global http.version HTTP/1.1
+git config --global core.compression 0
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24/PyQt6_QtDesigner_Gerer_Location_Auto1 (main)
+$ git push
+Enumerating objects: 225, done.
+Counting objects: 100% (225/225), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (222/222), done.
+Writing objects: 100% (224/224), 78.89 MiB | 50.27 MiB/s, done.
+Total 224 (delta 104), reused 0 (delta 0), pack-reused 0 (from 0)
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24/PyQt6_QtDesigner_Gerer_Location_Auto1 (main)
+$ git remote set-url origin git@github.com:Mariogit20/PyQt6_QtDesigner_Gerer_Location_Auto1.git
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24/PyQt6_QtDesigner_Gerer_Location_Auto1 (main)
+$ git push
+Enumerating objects: 225, done.
+Counting objects: 100% (225/225), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (222/222), done.
+Writing objects: 100% (224/224), 78.89 MiB | 52.00 KiB/s, done.
+Total 224 (delta 104), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (104/104), done.
+To github.com:Mariogit20/PyQt6_QtDesigner_Gerer_Location_Auto1.git
+   9352fd8..be59209  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24/PyQt6_QtDesigner_Gerer_Location_Auto1 (main)
+$ git config --global --unset http.version
+git config --global --unset core.compression
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github24/PyQt6_QtDesigner_Gerer_Location_Auto1 (main)
+$
